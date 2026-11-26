@@ -1,0 +1,49 @@
+# Primo avvio: accesso, scelta del ruolo, passo obbligatorio della playlist.
+appId: com.listenmarketing.app
+---
+- runFlow: _accedi.yaml
+- extendedWaitUntil:
+    visible:
+      id: screen-role
+    timeout: 15000
+- tapOn:
+    id: role-artista
+- tapOn:
+    id: role-continue
+- tapOn: Conferma
+- extendedWaitUntil:
+    visible:
+      id: screen-playlist
+    timeout: 15000
+# il bottone «L'ho seguita» resta grigio finché non si apre il link
+- assertVisible:
+    id: playlist-confirm
+    enabled: false
+- tapOn:
+    id: playlist-open
+# torna nell'app dal browser o da Spotify
+- launchApp:
+    stopApp: false
+- extendedWaitUntil:
+    visible:
+      id: playlist-opened
+    timeout: 15000
+- assertVisible:
+    id: playlist-confirm
+    enabled: true
+- tapOn:
+    id: playlist-confirm
+- extendedWaitUntil:
+    visible:
+      id: screen-home
+    timeout: 15000
+# il permesso delle notifiche si chiede solo adesso, con la schermata che spiega
+- runFlow:
+    when:
+      visible:
+        id: screen-notifications
+    commands:
+      - tapOn:
+          id: notifications-later
+- assertVisible:
+    id: tab-marketing

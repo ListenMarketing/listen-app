@@ -1,0 +1,16 @@
+# Sotto-flusso: accesso con l'account di prova (EMAIL e PASSWORD arrivano da riga di comando).
+appId: com.listenmarketing.app
+---
+- launchApp:
+    clearState: true
+- tapOn:
+    id: go-login
+- tapOn:
+    id: login-email
+- inputText: ${EMAIL}
+- tapOn:
+    id: login-password
+- inputText: ${PASSWORD}
+- hideKeyboard
+- tapOn:
+    id: login-submit

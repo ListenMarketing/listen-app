@@ -1,0 +1,64 @@
+# Producer: un beat di 41 secondi viene rifiutato, uno di 28 entra in gara.
+appId: com.listenmarketing.app
+---
+- runFlow: _accedi.yaml
+- extendedWaitUntil:
+    visible:
+      id: screen-home
+    timeout: 15000
+- runFlow:
+    when:
+      visible:
+        id: screen-notifications
+    commands:
+      - tapOn:
+          id: notifications-later
+- tapOn:
+    id: upload-beat
+- runFlow:
+    when:
+      visible:
+        id: screen-candidatura
+    commands:
+      - tapOn:
+          id: cand-name
+      - inputText: Nando Beats
+      - tapOn:
+          id: cand-city
+      - inputText: Napoli
+      - hideKeyboard
+      - tapOn: Trap
+      - tapOn:
+          id: candidatura-next
+- extendedWaitUntil:
+    visible:
+      id: screen-my-beat
+    timeout: 15000
+# 41 secondi: rifiutato prima dell'invio
+- tapOn:
+    id: beat-pick
+- tapOn: beat-41s.wav
+- extendedWaitUntil:
+    visible:
+      id: beat-file-rejected
+    timeout: 15000
+# 28 secondi: accettato
+- tapOn:
+    id: beat-pick
+- tapOn: beat-28s.wav
+- extendedWaitUntil:
+    visible:
+      id: beat-file-ok
+    timeout: 15000
+- tapOn:
+    id: beat-title
+- eraseText
+- inputText: Notte a Scampia
+- hideKeyboard
+- tapOn: Trap
+- tapOn:
+    id: beat-publish
+- extendedWaitUntil:
+    visible:
+      id: beat-saved
+    timeout: 60000

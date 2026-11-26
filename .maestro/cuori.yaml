@@ -1,0 +1,44 @@
+# Cuori: con 100 beat in gara se ne danno 5; il sesto lo rifiuta il server con il suo messaggio.
+appId: com.listenmarketing.app
+---
+- runFlow: _accedi.yaml
+- extendedWaitUntil:
+    visible:
+      id: beat-catalog
+    timeout: 20000
+- runFlow:
+    when:
+      visible:
+        id: screen-notifications
+    commands:
+      - tapOn:
+          id: notifications-later
+- assertVisible: Hai 5 cuori
+- scrollUntilVisible:
+    element:
+      id: heart-0
+- tapOn:
+    id: heart-0
+- tapOn:
+    id: heart-1
+- tapOn:
+    id: heart-2
+- scrollUntilVisible:
+    element:
+      id: heart-4
+- tapOn:
+    id: heart-3
+- tapOn:
+    id: heart-4
+- scrollUntilVisible:
+    element:
+      id: heart-5
+- tapOn:
+    id: heart-5
+- scrollUntilVisible:
+    element:
+      id: hearts-error
+    direction: UP
+- assertVisible: Hai 0 cuori
+- assertVisible:
+    id: hearts-error
