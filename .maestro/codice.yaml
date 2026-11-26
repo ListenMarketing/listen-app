@@ -1,0 +1,66 @@
+# Artista: inserimento del codice di iscrizione con i dati e lo studio preferito.
+appId: com.listenmarketing.app
+---
+- runFlow: _accedi.yaml
+- extendedWaitUntil:
+    visible:
+      id: screen-home
+    timeout: 15000
+- runFlow:
+    when:
+      visible:
+        id: screen-notifications
+    commands:
+      - tapOn:
+          id: notifications-later
+- tapOn:
+    id: tab-artisti
+- scrollUntilVisible:
+    element:
+      id: artisti-code
+- tapOn:
+    id: artisti-code
+- extendedWaitUntil:
+    visible:
+      id: screen-code
+    timeout: 15000
+- tapOn:
+    id: code-input
+- eraseText
+- inputText: ${CODICE}
+- tapOn:
+    id: code-city
+- eraseText
+- inputText: Milano
+- tapOn:
+    id: code-phone
+- eraseText
+- inputText: "+393450000000"
+- tapOn:
+    id: code-since
+- eraseText
+- inputText: "2022"
+- hideKeyboard
+- scrollUntilVisible:
+    element:
+      id: studio-external
+- tapOn:
+    id: studio-external
+- scrollUntilVisible:
+    element:
+      id: ext-phone
+- tapOn:
+    id: ext-name
+- inputText: Blocco 9 Studio
+- tapOn:
+    id: ext-phone
+- inputText: "+39020000000"
+- hideKeyboard
+- tapOn:
+    id: code-submit
+- extendedWaitUntil:
+    visible:
+      id: my-page
+    timeout: 20000
+- assertVisible: Codice
+- assertVisible: Session

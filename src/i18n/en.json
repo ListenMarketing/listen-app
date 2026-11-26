@@ -1,0 +1,549 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "back": "Back",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "retry": "Try again",
+    "or": "or",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "yours": "yours",
+    "backHome": "Back to home",
+    "updatedAt": "Updated: {{when}}",
+    "offlineCopy": "Offline: you are seeing the last saved version ({{when}})",
+    "actionsNeedNetwork": "Any action needs a network connection.",
+    "needNetwork": "You need an internet connection. Check your network and try again.",
+    "genericError": "Something went wrong. Try again shortly.",
+    "spotifyLink": "Spotify link",
+    "spotifyLinkOf": "Spotify link for {{title}}"
+  },
+  "tabs": {
+    "home": "Home",
+    "producer": "Producers",
+    "artisti": "Artists",
+    "marketing": "Marketing",
+    "io": "Me"
+  },
+  "roles": {
+    "producer": "Producer",
+    "artista": "Artist",
+    "pubblico": "Audience",
+    "studio": "Production studio"
+  },
+  "fields": {
+    "stageName": "Stage name",
+    "region": "Region",
+    "city": "City",
+    "phone": "Phone",
+    "instagram": "Instagram handle",
+    "genre": "Genre",
+    "choose": "Choose"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "errors": {
+      "invalid": "Wrong email or password.",
+      "notConfirmed": "You have not confirmed your email yet: open the link we sent you.",
+      "exists": "This email already has a Listen account: use “Log in”.",
+      "weak": "The password is too weak: use at least 8 characters.",
+      "rate": "Too many attempts: wait a minute and try again."
+    }
+  },
+  "onboarding": {
+    "step": "First launch · step {{n}} of 3"
+  },
+  "register": {
+    "title": "Create your Listen account",
+    "intro": "One account for the app and for listen-marketing.com. Inside you find Chiamarsi Producer and Chiamarsi Artisti.",
+    "name": "Name or stage name",
+    "passwordHint": "At least 8 characters.",
+    "accept": "I accept the Chiamarsi rules and the Listen Marketing Sagl privacy policy",
+    "rules": "Read the rules",
+    "privacy": "Read the privacy policy",
+    "submit": "Sign up",
+    "haveAccount": "Already have an account on the site? Log in",
+    "noteProsTitle": "Artists, producers and studios:",
+    "notePros": "same credentials on the site, where the marketing happens (pages, TikTok, Talent House).",
+    "notePublicTitle": "Audience:",
+    "notePublic": "app only. News, contest, hearts. No payment."
+  },
+  "login": {
+    "title": "Log in",
+    "intro": "Use the same credentials as listen-marketing.com.",
+    "submit": "Log in",
+    "forgot": "Forgot password"
+  },
+  "forgot": {
+    "title": "Forgot password",
+    "intro": "Enter your email: we will send you the site link to choose a new password.",
+    "submit": "Send me the link",
+    "sent": "Email sent",
+    "sentText": "Open the link we sent you, choose the new password on the site, then come back here to log in."
+  },
+  "confirm": {
+    "title": "Confirm your email",
+    "intro": "We sent a link to {{email}}. Open it to confirm your address, then come back here.",
+    "done": "I confirmed · continue",
+    "resend": "Resend the email",
+    "resent": "Email sent again. Check your spam folder too.",
+    "other": "Use another account"
+  },
+  "role": {
+    "title": "Who are you?",
+    "intro": "We ask only once: it decides what you can do in the app and on the site.",
+    "choose": "Choose who you are",
+    "continueAs": "Continue as {{role}}",
+    "changeNote": "You can change role only by writing to Listen support.",
+    "confirmTitle": "Continue as {{role}}?",
+    "confirmText": "The role is chosen only once and cannot be changed from the app.",
+    "desc": {
+      "producer": "You upload one beat, for free. If it is among the 10 most voted it becomes a production of Chiamarsi Artisti. Same account on the site. You vote for the artists of Chiamarsi Artisti.",
+      "artista": "You vote for the beats and take part in Chiamarsi Artisti in your region and then nationally. Same account on the site.",
+      "pubblico": "You listen to beats and tracks, follow the news and give your hearts. App only, no payment.",
+      "studio": "Listen partner: you host the sessions and vote for beats and artists. Account verification, same profile as the site."
+    }
+  },
+  "playlist": {
+    "lastStep": "One last step",
+    "title": "Follow the contest playlist",
+    "intro": "It is required to confirm your sign-up to the app. It collects the Chiamarsi Artisti tracks distributed by Listen.",
+    "official": "Official playlist",
+    "fallbackName": "The Chiamarsi playlist",
+    "open": "1 · Open the playlist and tap Follow",
+    "missing": "The playlist link is not available yet. Pull down to refresh.",
+    "openedAt": "Link opened at {{time}}",
+    "nowConfirm": "You can now confirm below",
+    "step2": "Come back to the app and tap “I followed it”. Until you open the link, the button stays off.",
+    "noSpotify": "No connection to Spotify: the app does not ask for your account and reads nothing from Spotify, it only records that you opened the link.",
+    "greyHint": "This button is grey until you open the link.",
+    "confirm": "I followed it · continue in the app"
+  },
+  "update": {
+    "title": "Update the app",
+    "text": "This version of Listen is no longer supported. Download the latest one from the store to continue.",
+    "button": "Open the store"
+  },
+  "loadError": {
+    "title": "I cannot load your data"
+  },
+  "countdown": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "spoken": "{{label}}: {{days}} days, {{hours}} hours and {{minutes}} minutes"
+  },
+  "phases": {
+    "countdown": {
+      "generic": "Next phase in",
+      "preparazione": "Next phase in",
+      "consegna_beat": "Beat delivery opens in",
+      "cuori_beat": "Hearts open in",
+      "top10": "The 10 beats are out in",
+      "iscrizioni": "Sign-ups open in",
+      "sessioni": "Sessions start in",
+      "consegna_brani": "Track delivery opens in",
+      "cuori_brani": "Hearts open in",
+      "classifiche": "Results are out in",
+      "finale": "The final event in",
+      "chiusa": "The edition closes in"
+    }
+  },
+  "hearts": {
+    "youHave_one": "You have {{count}} heart",
+    "youHave_other": "You have {{count}} hearts",
+    "ofTotal": "out of {{total}} in this phase",
+    "moveUntilClose": "You can move them until closing.",
+    "cannotVote": "You cannot give hearts right now.",
+    "give": "Give a heart to {{title}}",
+    "remove": "Remove the heart from {{title}}",
+    "count_one": "{{count}} heart",
+    "count_other": "{{count}} hearts"
+  },
+  "player": {
+    "play": "Play {{title}}",
+    "pause": "Stop {{title}}",
+    "hint": "30-second preview"
+  },
+  "report": {
+    "buttonFor": "Report {{title}}",
+    "title": "Report",
+    "intro": "You are reporting “{{title}}” to Listen. The report reaches the team, who review it and can exclude the content.",
+    "reason": "Reason",
+    "reasons": {
+      "offensivo": "Offensive content",
+      "copiato": "Not original",
+      "spam": "Spam or scam",
+      "altro": "Other"
+    },
+    "note": "Anything to add? (optional)",
+    "send": "Send the report",
+    "sent": "Report sent",
+    "sentText": "Thank you. You can also hide it: you will no longer see it on this phone.",
+    "hide": "Hide this content",
+    "hideOnly": "Just hide it for me"
+  },
+  "notifications": {
+    "title": "Turn on notifications",
+    "short": "We notify you when the phase changes, when hearts open and before your deadlines.",
+    "intro": "Notifications are only for Chiamarsi: we let you know, so you do not have to open the app to check.",
+    "items": {
+      "phases": "When the contest phase changes",
+      "hearts": "When hearts open",
+      "deadlines": "7 days and 1 day before your deadlines",
+      "news": "When Listen publishes news"
+    },
+    "noAds": "No advertising. You can turn them off anytime in your phone settings.",
+    "enable": "Turn on notifications",
+    "later": "Not now",
+    "active": "Notifications are on: we will let you know.",
+    "denied": "Notifications are off in your phone settings: turn them back on from there."
+  },
+  "home": {
+    "profileOf": "Your profile · {{role}}",
+    "beatsDelivered_one": "{{count}} beat delivered",
+    "beatsDelivered_other": "{{count}} beats delivered",
+    "tracksDelivered_one": "{{count}} track delivered",
+    "tracksDelivered_other": "{{count}} tracks delivered",
+    "weNotify": "we notify you when voting opens",
+    "producer": {
+      "pill": "Beat delivery open",
+      "title": "Chiamarsi Producer × Artisti",
+      "intro": "One beat each, for free. The hearts of audience, artists and studios choose the 10 beats Chiamarsi Artisti is played on, region by region.",
+      "lockNote": "at the deadline beats are locked",
+      "cta": "Upload your beat · free",
+      "cannot": "You cannot upload the beat right now: check that you completed the first launch."
+    },
+    "waitBeats": {
+      "pill": "Chiamarsi Producer in progress",
+      "title": "Producers are delivering their beats",
+      "intro": "Only they compete in this phase. When hearts open you can listen to the beats and give hearts to your favourites."
+    },
+    "waitArtists": {
+      "pill": "Chiamarsi Artisti in progress",
+      "title": "The artists are in the studio",
+      "intro": "The artists record their track on one of the 10 beats. When the tracks are online you give hearts to your favourites.",
+      "top10": "The 10 beats of Chiamarsi Producer",
+      "join": "Take part in Chiamarsi Artisti"
+    },
+    "preparing": {
+      "title": "Chiamarsi is about to start",
+      "intro": "The edition is being prepared. Turn on notifications: we will tell you when it starts."
+    },
+    "slot": {
+      "title": "Book your slot for Chiamarsi Artisti",
+      "text": "Tell us you want to be there in your region and we will let you know when sign-ups open. No payment now.",
+      "bookedTitle": "Slot booked · we will notify you when sign-ups open",
+      "edit": "Tap to review or edit your details."
+    },
+    "pendingStudio": {
+      "title": "Account under review",
+      "text": "Listen is verifying your studio, as for agencies on the site. Meanwhile you see the waiting screen: we will notify you when it is approved."
+    }
+  },
+  "beats": {
+    "phasePill": "Voting with hearts · beat delivery closed",
+    "title": "The beats",
+    "inContest": "{{count}} competing",
+    "search": "Search a beat or a producer",
+    "genre": "Genre",
+    "empty": "No beats found.",
+    "footnote": "Beat delivery is closed: no new beats, no new producers. At closing, the 10 chosen beats become the productions of Chiamarsi Artisti."
+  },
+  "top10": {
+    "pill": "Chiamarsi Producer · closed",
+    "title": "The 10 beats of Chiamarsi Producer",
+    "intro": "The artists of Chiamarsi Artisti record their track on these ten.",
+    "notIn": "Your beat is not among the 10.",
+    "empty": "The 10 beats have not been published yet.",
+    "join": "Take part in Chiamarsi Artisti"
+  },
+  "producer": {
+    "badge": "PRODUCERS",
+    "apply": {
+      "eyebrow": "Chiamarsi Producer · step 1 of 2",
+      "title": "Who you are",
+      "genre": "Beat genre",
+      "next": "Next · upload the beat",
+      "free": "Taking part is free. No ID required."
+    },
+    "beat": {
+      "eyebrow": "Chiamarsi Producer · free",
+      "title": "Your beat",
+      "oneEach": "One beat each",
+      "rules": "WAV or MP3, at most {{maxSeconds}} seconds and {{maxMb}} MB. If you upload another one, it replaces this. At the deadline beats are locked and no new producers enter.",
+      "needsApplication": "First tell us who you are: stage name, city, Instagram and genre are enough.",
+      "pick": "Choose the beat file",
+      "replace": "Replace the file",
+      "delete": "Delete the beat",
+      "deleteTitle": "Delete the beat?",
+      "deleteText": "While delivery is open you can upload another one.",
+      "fieldTitle": "Title",
+      "fieldGenre": "Genre",
+      "fieldBpm": "BPM (optional)",
+      "publish": "Publish the beat in the contest",
+      "save": "Save changes",
+      "saved": "Beat saved: it is in the contest.",
+      "uploading": "Uploading the beat",
+      "noUploadUrl": "The server did not provide an upload address. Try again.",
+      "readOnly": "Delivery is closed: the beat can no longer be edited.",
+      "closedNoBeat": "Beat delivery is closed and you did not upload a beat.",
+      "excludedReason": "Reason for exclusion",
+      "status": {
+        "caricato": "Uploaded",
+        "in_gara": "Competing",
+        "top10": "In the 10",
+        "escluso": "Excluded"
+      },
+      "rejected": {
+        "format": "“{{name}}” was rejected: upload a WAV or MP3 file.",
+        "size": "“{{name}}” ({{size}}) was rejected: the file can weigh at most {{maxMb}} MB.",
+        "duration": "“{{name}}” ({{duration}}) was rejected: upload an excerpt of at most {{maxSeconds}} seconds."
+      }
+    },
+    "tab": {
+      "title": "Chiamarsi Producer",
+      "yourBeat": "Your beat",
+      "open": "Delivery is open: you can upload, replace or delete your beat.",
+      "closed": "Delivery is closed: here you see your beat and its status.",
+      "see": "See your beat",
+      "introProducer": "Upload your beat: only one, for free. When hearts open you will find all competing beats here.",
+      "introOthers": "In this phase producers deliver their beats. When hearts open you will find all competing beats here."
+    }
+  },
+  "artists": {
+    "badge": "ARTISTS",
+    "pill": "Chiamarsi Artisti · seats per region",
+    "title": "A track in 2 hours, in your region",
+    "introBefore": "Sign-ups are not open yet. If you are an artist you can book your slot: no payment now, we will let you know.",
+    "introOpen": "Choose the package, pay on the site and receive your sign-up code, unique and impossible to guess.",
+    "packages": {
+      "base": {
+        "name": "Base",
+        "price": "€99",
+        "includes": "2-hour session in a partner studio, one of the 10 beats, pre-mix by the studio, distribution of the track by Listen, participation in your region's hearts."
+      },
+      "completo": {
+        "name": "Completo",
+        "price": "€150",
+        "includes": "Everything in Base, plus mix and master of the track by the studio."
+      }
+    },
+    "book": "Book your slot",
+    "acceptRules": "I have read and accept the Chiamarsi rules",
+    "pay": "Book and pay",
+    "payNote": "Payment happens on listen-marketing.com, in the browser: it is a real-world service (the studio session and the distribution), not an in-app purchase. Then you come back here with the code already active.",
+    "noCheckoutUrl": "The server did not provide the payment page. Try again.",
+    "fullTitle": "{{region}}: region full",
+    "fullFallback": "Seats in this region are finished: if you continue you join the waiting list.",
+    "fullContinue": "Continue",
+    "alreadyPaid": "Already paid?",
+    "alreadyPaidText": "From the site: the code is in the order email. From the app: it is already active.",
+    "enterCode": "Enter the code",
+    "onlyArtists": "Only accounts with the artist role sign up to Chiamarsi Artisti.",
+    "seats": "Seats per region",
+    "seatsTotal": "{{enrolled}} signed up out of {{capacity}}",
+    "free_one": "{{count}} free seat",
+    "free_other": "{{count}} free seats",
+    "waitlist": "waiting list",
+    "finalLink": "The final event and the prize"
+  },
+  "slot": {
+    "eyebrow": "Chiamarsi Artisti · before opening",
+    "title": "Book your slot",
+    "intro": "Tell us you want to take part in your region: no payment now. We will let you know when sign-ups open, with seats and dates.",
+    "email": "Email (the one of your Listen account)",
+    "want": "I want to take part in Chiamarsi Artisti in my region",
+    "updates": "Keep me updated: newsletter and email, site and app notifications",
+    "note": "Booking costs nothing and is not the sign-up yet: it helps us count who wants to be there, region by region.",
+    "submit": "Book my slot",
+    "update": "Save changes",
+    "doneText": "You can come back here anytime to edit your details.",
+    "cannot": "Slot booking is not available right now."
+  },
+  "paid": {
+    "checking": "Checking your order…",
+    "checkingText": "If you paid, the sign-up code arrives in a few seconds.",
+    "notYet": "I do not see an active code yet",
+    "notYetText": "If you completed the payment it may take a few minutes: the code is also in the order email. If you did not pay, nothing was charged."
+  },
+  "code": {
+    "title": "Your code and your details",
+    "label": "Sign-up code",
+    "hint": "It is in the order email. 18 characters: the app adds the dashes.",
+    "prefilled": "You paid with this account: the code is already here.",
+    "blocked": "Entry blocked · try again in {{time}}",
+    "since": "Artist since (year)",
+    "studioTitle": "The studio you prefer in your region",
+    "partner": "Listen partner studio",
+    "noPartners": "There are no partner studios in this region yet: tell us a studio you know.",
+    "chooseRegionFirst": "Choose the region first to see partner studios.",
+    "external": "A studio I know",
+    "externalSub": "Not a partner: we contact them for the agreement",
+    "ext": {
+      "name": "Studio name",
+      "address": "Address",
+      "phone": "Studio phone · required",
+      "email": "Studio email (optional)"
+    },
+    "contactNote": "We contact you within 48 hours to book the session: 2 hours to finish the track.",
+    "submit": "Confirm and enter the contest"
+  },
+  "entry": {
+    "title": "My page",
+    "missing": "I cannot find your sign-up.",
+    "steps": {
+      "code": "Code",
+      "session": "Session",
+      "delivery": "Delivery",
+      "online": "Online and hearts"
+    },
+    "stepsSpoken": "Step {{n}} of {{total}}: {{step}}",
+    "status": {
+      "iscritto": "Signed up",
+      "lista_attesa": "On the waiting list",
+      "da_contattare": "We will contact you for the session",
+      "session_prenotata": "Session booked",
+      "session_fatta": "Session done",
+      "consegna_studio": "The studio delivered",
+      "brano_caricato": "Track uploaded · under review",
+      "controllato": "Track reviewed",
+      "online": "Track online",
+      "in_gara": "Competing",
+      "passato": "Through",
+      "wildcard": "Wild card",
+      "escluso": "Excluded",
+      "annullato": "Sign-up cancelled"
+    },
+    "session": "The session",
+    "studioPending": "The studio has not been assigned yet.",
+    "sessionPending": "Session date to be set: we will contact you.",
+    "callStudio": "Call the studio",
+    "beat": "The beat",
+    "noBeat": "You have not chosen the beat yet.",
+    "chooseBeat": "Choose the beat",
+    "changeBeat": "Change beat",
+    "chooseBeatText": "One of the 10 beats of Chiamarsi Producer: you use it in the studio. You can change it until the session.",
+    "chooseThis": "Choose “{{title}}”",
+    "beatChosen": "Beat chosen",
+    "package": "The package",
+    "dueBy": "Deliver by: {{date}}",
+    "studioDelivered": "The studio delivered on {{date}}",
+    "uploadTrack": "Upload the WAV and the distribution details"
+  },
+  "track": {
+    "eyebrow": "Chiamarsi Artisti · delivery",
+    "title": "Upload the track",
+    "cannot": "You cannot deliver the track right now: you can still prepare the draft.",
+    "wavTitle": "The WAV file of the track",
+    "wavText": "The file the studio delivered to you.",
+    "pickWav": "Choose the WAV",
+    "replaceWav": "Replace the WAV",
+    "why": "Listen needs these details to distribute the track on the platforms: they are the same ones the distributor asks for.",
+    "fields": {
+      "title": "Track title",
+      "artist": "Artist name",
+      "spotify": "Link to your Spotify profile (empty if this is your first track)",
+      "language": "Language",
+      "explicit": "Explicit",
+      "author": "Lyrics author (first and last name)",
+      "producer": "Beat producer",
+      "lyrics": "Lyrics"
+    },
+    "coverTitle": "Cover {{side}}×{{side}}",
+    "coverText": "JPG or PNG, exactly 3000×3000. Without a cover we use the contest artwork.",
+    "pickCover": "Choose from gallery",
+    "replaceCover": "Replace the cover",
+    "errors": {
+      "wav_format": "The file must be a WAV.",
+      "cover_format": "The cover must be a JPG or a PNG.",
+      "cover_size": "The cover is {{width}}×{{height}}: it must be exactly {{side}}×{{side}}."
+    },
+    "decl": {
+      "mine": "The track is mine",
+      "notOffensive": "The lyrics do not offend anyone",
+      "distribution": "I authorise Listen Marketing to distribute it for the edition"
+    },
+    "uploadingWav": "Uploading the WAV",
+    "uploadingCover": "Uploading the cover",
+    "draftNote": "The draft stays saved on this phone until you deliver.",
+    "send": "Deliver the track",
+    "sentTitle": "Track delivered",
+    "sentText": "Listen reviews the file, distributes the track and notifies you when it is online.",
+    "status": {
+      "brano_caricato": "Track uploaded · under review",
+      "controllato": "Track reviewed",
+      "online": "Track online"
+    }
+  },
+  "vote": {
+    "pill": "Chiamarsi Artisti · regional challenge",
+    "title": "The region's tracks",
+    "intro": "The region's tracks, to preview. Give your hearts to your favourites.",
+    "changeRegion": "Change region",
+    "search": "Search a track or an artist",
+    "onBeat": "on “{{beat}}”",
+    "empty": "No tracks found."
+  },
+  "ranking": {
+    "pill": "Results",
+    "title": "The region's results",
+    "notYet": "The results have not been published yet.",
+    "passed": "Through",
+    "wildcards": "Wild cards",
+    "finalLink": "The final event and the prize"
+  },
+  "finale": {
+    "pill": "Chiamarsi Artisti · live",
+    "title": "The final event",
+    "pending": "The details of the final event appear here as soon as Listen publishes them.",
+    "prize": "Final prize",
+    "rankingLink": "Each region's results"
+  },
+  "marketing": {
+    "title": "Run your next campaign with us",
+    "intro": "Marketing happens on the site, not here: the Listen app is for Chiamarsi. You enter listen-marketing.com with the same account and find everything.",
+    "cardEyebrow": "Marketing · on the site",
+    "cardText": "Pages, TikTok, Talent House: on listen-marketing.com with the same account.",
+    "onSite": "On the site ↗",
+    "open": "Open listen-marketing.com",
+    "publicNote": "Are you audience? The site is for artists, producers and studios: if you are one, write to Listen to change role.",
+    "cards": {
+      "instagram": {
+        "title": "Instagram pages",
+        "text": "Posts and reels on partner pages, in Italy and abroad."
+      },
+      "tiktok": {
+        "title": "TikTok and creators",
+        "text": "Your track in creators' videos and on partner TikTok pages."
+      },
+      "talent": {
+        "title": "Talent House",
+        "text": "Your artist page on Listen, with your tracks and campaigns."
+      },
+      "partners": {
+        "title": "Partner studios and agencies",
+        "text": "The release calendar of your artists and the partner credit."
+      }
+    }
+  },
+  "me": {
+    "legal": "Rules and privacy",
+    "terms": "Read the terms",
+    "noTracking": "The app contains no third-party tracking or advertising.",
+    "signOut": "Log out",
+    "delete": {
+      "button": "Delete my account",
+      "title": "Delete your account?",
+      "text": "Your profile and hearts are anonymised and you will no longer be able to log in, in the app or on the site. Only orders remain, which Listen must keep for accounting obligations.",
+      "continue": "Continue",
+      "confirmTitle": "Are you sure?",
+      "confirmText": "Deletion is immediate and cannot be undone.",
+      "confirm": "Delete forever"
+    }
+  }
+}

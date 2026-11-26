@@ -1,0 +1,549 @@
+{
+  "common": {
+    "loading": "Carico…",
+    "back": "Indietro",
+    "close": "Chiudi",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "retry": "Riprova",
+    "or": "oppure",
+    "all": "Tutti",
+    "yes": "Sì",
+    "no": "No",
+    "yours": "tuo",
+    "backHome": "Torna alla home",
+    "updatedAt": "Aggiornato: {{when}}",
+    "offlineCopy": "Senza rete: stai vedendo l'ultima versione salvata ({{when}})",
+    "actionsNeedNetwork": "Per fare qualsiasi azione serve la rete.",
+    "needNetwork": "Serve la connessione a internet. Controlla la rete e riprova.",
+    "genericError": "Qualcosa non ha funzionato. Riprova tra poco.",
+    "spotifyLink": "Link Spotify",
+    "spotifyLinkOf": "Link Spotify di {{title}}"
+  },
+  "tabs": {
+    "home": "Home",
+    "producer": "Producer",
+    "artisti": "Artisti",
+    "marketing": "Marketing",
+    "io": "Io"
+  },
+  "roles": {
+    "producer": "Producer",
+    "artista": "Artista",
+    "pubblico": "Pubblico",
+    "studio": "Studio di produzione"
+  },
+  "fields": {
+    "stageName": "Nome d'arte",
+    "region": "Regione",
+    "city": "Città",
+    "phone": "Telefono",
+    "instagram": "Tag Instagram",
+    "genre": "Genere",
+    "choose": "Scegli"
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "errors": {
+      "invalid": "Email o password non corrette.",
+      "notConfirmed": "Non hai ancora confermato l'email: apri il link che ti abbiamo mandato.",
+      "exists": "Questa email ha già un account Listen: usa «Accedi».",
+      "weak": "La password è troppo debole: usa almeno 8 caratteri.",
+      "rate": "Troppi tentativi: aspetta un minuto e riprova."
+    }
+  },
+  "onboarding": {
+    "step": "Primo avvio · passo {{n}} di 3"
+  },
+  "register": {
+    "title": "Crea il tuo account Listen",
+    "intro": "Uno solo, per l'app e per il sito listen-marketing.com. Dentro trovi Chiamarsi Producer e Chiamarsi Artisti.",
+    "name": "Nome o nome d'arte",
+    "passwordHint": "Almeno 8 caratteri.",
+    "accept": "Accetto il regolamento di Chiamarsi e la privacy di Listen Marketing Sagl",
+    "rules": "Leggi il regolamento",
+    "privacy": "Leggi la privacy",
+    "submit": "Registrati",
+    "haveAccount": "Hai già un account sul sito? Accedi",
+    "noteProsTitle": "Artisti, producer e studi:",
+    "notePros": "stesse credenziali sul sito, dove si fa il marketing (pagine, TikTok, Talent House).",
+    "notePublicTitle": "Pubblico:",
+    "notePublic": "solo l'app. News, torneo, cuori. Nessun pagamento."
+  },
+  "login": {
+    "title": "Accedi",
+    "intro": "Usa le stesse credenziali di listen-marketing.com.",
+    "submit": "Accedi",
+    "forgot": "Password dimenticata"
+  },
+  "forgot": {
+    "title": "Password dimenticata",
+    "intro": "Scrivi la tua email: ti mandiamo il link del sito per scegliere una nuova password.",
+    "submit": "Mandami il link",
+    "sent": "Email inviata",
+    "sentText": "Apri il link che ti abbiamo mandato, scegli la nuova password sul sito e poi torna qui ad accedere."
+  },
+  "confirm": {
+    "title": "Conferma l'email",
+    "intro": "Ti abbiamo mandato un link a {{email}}. Aprilo per confermare l'indirizzo, poi torna qui.",
+    "done": "Ho confermato · continua",
+    "resend": "Rimanda l'email",
+    "resent": "Email rimandata. Controlla anche lo spam.",
+    "other": "Usa un altro account"
+  },
+  "role": {
+    "title": "Chi sei?",
+    "intro": "Lo chiediamo una volta sola: decide cosa puoi fare nell'app e sul sito.",
+    "choose": "Scegli chi sei",
+    "continueAs": "Continua come {{role}}",
+    "changeNote": "Puoi cambiare ruolo solo scrivendo al supporto Listen.",
+    "confirmTitle": "Continui come {{role}}?",
+    "confirmText": "Il ruolo si sceglie una volta sola e dall'app non si può cambiare.",
+    "desc": {
+      "producer": "Carichi un beat, gratis. Se è tra i 10 più votati diventa una produzione di Chiamarsi Artisti. Stesso account sul sito. Voti gli artisti di Chiamarsi Artisti.",
+      "artista": "Voti i beat e partecipi a Chiamarsi Artisti nella tua regione e poi nazionale. Stesso account sul sito.",
+      "pubblico": "Ascolti i beat e i brani, segui le news e dai i tuoi cuori. Solo nell'app, nessun pagamento.",
+      "studio": "Partner Listen: ospiti le session e voti i beat e gli artisti. Verifica dell'account, stesso profilo del sito."
+    }
+  },
+  "playlist": {
+    "lastStep": "Un ultimo passo",
+    "title": "Segui la playlist del contest",
+    "intro": "È obbligatorio per confermare l'iscrizione all'app. Dentro ci finiscono i brani di Chiamarsi Artisti distribuiti da Listen.",
+    "official": "Playlist ufficiale",
+    "fallbackName": "La playlist di Chiamarsi",
+    "open": "1 · Apri la playlist e premi Segui",
+    "missing": "Il link della playlist non è ancora disponibile. Tira giù per aggiornare.",
+    "openedAt": "Link aperto alle {{time}}",
+    "nowConfirm": "Ora puoi confermare qui sotto",
+    "step2": "Torna nell'app e premi «L'ho seguita». Finché non hai aperto il link, il bottone resta spento.",
+    "noSpotify": "Nessun collegamento a Spotify: l'app non chiede il tuo account e non legge niente da Spotify, registra solo che hai aperto il link.",
+    "greyHint": "Prima di aprire il link questo bottone è grigio.",
+    "confirm": "L'ho seguita · continua nell'app"
+  },
+  "update": {
+    "title": "Aggiorna l'app",
+    "text": "Questa versione di Listen non è più supportata. Scarica l'ultima dallo store per continuare.",
+    "button": "Apri lo store"
+  },
+  "loadError": {
+    "title": "Non riesco a caricare i tuoi dati"
+  },
+  "countdown": {
+    "days": "giorni",
+    "hours": "ore",
+    "minutes": "minuti",
+    "seconds": "secondi",
+    "spoken": "{{label}}: {{days}} giorni, {{hours}} ore e {{minutes}} minuti"
+  },
+  "phases": {
+    "countdown": {
+      "generic": "Prossima fase tra",
+      "preparazione": "Prossima fase tra",
+      "consegna_beat": "La consegna dei beat apre tra",
+      "cuori_beat": "I cuori si aprono tra",
+      "top10": "I 10 beat escono tra",
+      "iscrizioni": "Le iscrizioni aprono tra",
+      "sessioni": "Le session iniziano tra",
+      "consegna_brani": "La consegna dei brani apre tra",
+      "cuori_brani": "I cuori si aprono tra",
+      "classifiche": "I risultati escono tra",
+      "finale": "L'evento finale tra",
+      "chiusa": "L'edizione chiude tra"
+    }
+  },
+  "hearts": {
+    "youHave_one": "Hai {{count}} cuore",
+    "youHave_other": "Hai {{count}} cuori",
+    "ofTotal": "su {{total}} in questa fase",
+    "moveUntilClose": "Li sposti fino alla chiusura.",
+    "cannotVote": "Adesso non puoi dare cuori.",
+    "give": "Dai un cuore a {{title}}",
+    "remove": "Togli il cuore a {{title}}",
+    "count_one": "{{count}} cuore",
+    "count_other": "{{count}} cuori"
+  },
+  "player": {
+    "play": "Ascolta {{title}}",
+    "pause": "Ferma {{title}}",
+    "hint": "Anteprima di 30 secondi"
+  },
+  "report": {
+    "buttonFor": "Segnala {{title}}",
+    "title": "Segnala",
+    "intro": "Segnali «{{title}}» a Listen. La segnalazione arriva al team, che controlla e può escludere il contenuto.",
+    "reason": "Motivo",
+    "reasons": {
+      "offensivo": "Contenuto offensivo",
+      "copiato": "Non è originale",
+      "spam": "Spam o truffa",
+      "altro": "Altro"
+    },
+    "note": "Vuoi aggiungere qualcosa? (facoltativo)",
+    "send": "Invia la segnalazione",
+    "sent": "Segnalazione inviata",
+    "sentText": "Grazie. Puoi anche nasconderlo: non lo vedrai più su questo telefono.",
+    "hide": "Nascondi questo contenuto",
+    "hideOnly": "Nascondilo solo per me"
+  },
+  "notifications": {
+    "title": "Attiva le notifiche",
+    "short": "Ti avvisiamo ai cambi di fase, all'apertura dei cuori e alle tue scadenze.",
+    "intro": "Le notifiche servono solo a Chiamarsi: ti avvisiamo noi, così non devi aprire l'app per controllare.",
+    "items": {
+      "phases": "Quando cambia la fase del contest",
+      "hearts": "Quando si aprono i cuori",
+      "deadlines": "7 giorni e 1 giorno prima delle tue scadenze",
+      "news": "Quando Listen pubblica una news"
+    },
+    "noAds": "Niente pubblicità. Puoi spegnerle quando vuoi dalle impostazioni del telefono.",
+    "enable": "Attiva le notifiche",
+    "later": "Non adesso",
+    "active": "Notifiche attive: ti avvisiamo noi.",
+    "denied": "Le notifiche sono spente nelle impostazioni del telefono: riaccendile da lì."
+  },
+  "home": {
+    "profileOf": "Il tuo profilo · {{role}}",
+    "beatsDelivered_one": "{{count}} beat consegnato",
+    "beatsDelivered_other": "{{count}} beat consegnati",
+    "tracksDelivered_one": "{{count}} brano consegnato",
+    "tracksDelivered_other": "{{count}} brani consegnati",
+    "weNotify": "ti avvisiamo quando si vota",
+    "producer": {
+      "pill": "Consegna dei beat aperta",
+      "title": "Chiamarsi Producer × Artisti",
+      "intro": "Un beat a testa, gratis. I cuori di pubblico, artisti e studi scelgono i 10 beat su cui si gioca Chiamarsi Artisti, regione per regione.",
+      "lockNote": "alla scadenza i beat si bloccano",
+      "cta": "Carica il tuo beat · gratis",
+      "cannot": "Adesso non puoi caricare il beat: controlla di aver completato il primo avvio."
+    },
+    "waitBeats": {
+      "pill": "Chiamarsi Producer in corso",
+      "title": "I producer stanno consegnando i beat",
+      "intro": "In questa fase gareggiano solo loro. Quando si aprono i cuori potrai ascoltare i beat e darli ai tuoi preferiti."
+    },
+    "waitArtists": {
+      "pill": "Chiamarsi Artisti in corso",
+      "title": "Gli artisti sono in studio",
+      "intro": "Gli artisti registrano il loro brano su uno dei 10 beat. Quando i brani sono online dai i cuori ai tuoi preferiti.",
+      "top10": "I 10 beat di Chiamarsi Producer",
+      "join": "Partecipa a Chiamarsi Artisti"
+    },
+    "preparing": {
+      "title": "Chiamarsi sta per partire",
+      "intro": "L'edizione è in preparazione. Attiva le notifiche: ti avvisiamo noi quando si comincia."
+    },
+    "slot": {
+      "title": "Prenota il tuo slot a Chiamarsi Artisti",
+      "text": "Dicci che vuoi esserci nella tua regione e ti avvisiamo noi quando aprono le iscrizioni. Nessun pagamento adesso.",
+      "bookedTitle": "Slot prenotato · ti avvisiamo quando aprono le iscrizioni",
+      "edit": "Tocca per rivedere o modificare i tuoi dati."
+    },
+    "pendingStudio": {
+      "title": "Account in verifica",
+      "text": "Listen sta verificando il tuo studio, come per le agenzie sul sito. Nel frattempo vedi l'attesa: ti avvisiamo quando è approvato."
+    }
+  },
+  "beats": {
+    "phasePill": "Voto con i cuori · consegna dei beat chiusa",
+    "title": "I beat",
+    "inContest": "{{count}} in gara",
+    "search": "Cerca un beat o un producer",
+    "genre": "Genere",
+    "empty": "Nessun beat trovato.",
+    "footnote": "La consegna dei beat è chiusa: nessun beat nuovo, nessun nuovo producer. Alla chiusura i 10 beat scelti diventano le produzioni di Chiamarsi Artisti."
+  },
+  "top10": {
+    "pill": "Chiamarsi Producer · chiuso",
+    "title": "I 10 beat di Chiamarsi Producer",
+    "intro": "Su questi dieci gli artisti di Chiamarsi Artisti registrano il loro brano.",
+    "notIn": "Il tuo beat non è tra i 10.",
+    "empty": "I 10 beat non sono ancora stati pubblicati.",
+    "join": "Partecipa a Chiamarsi Artisti"
+  },
+  "producer": {
+    "badge": "PRODUCER",
+    "apply": {
+      "eyebrow": "Chiamarsi Producer · passo 1 di 2",
+      "title": "Chi sei",
+      "genre": "Genere del beat",
+      "next": "Avanti · carica il beat",
+      "free": "Partecipare è gratis. Nessun documento richiesto."
+    },
+    "beat": {
+      "eyebrow": "Chiamarsi Producer · gratis",
+      "title": "Il tuo beat",
+      "oneEach": "Un beat a testa",
+      "rules": "WAV o MP3, al massimo {{maxSeconds}} secondi e {{maxMb}} MB. Se ne carichi un altro, sostituisce questo. Alla scadenza i beat si bloccano e non entrano nuovi producer.",
+      "needsApplication": "Prima dicci chi sei: bastano nome d'arte, città, Instagram e genere.",
+      "pick": "Scegli il file del beat",
+      "replace": "Sostituisci il file",
+      "delete": "Elimina il beat",
+      "deleteTitle": "Eliminare il beat?",
+      "deleteText": "Finché la consegna è aperta puoi caricarne un altro.",
+      "fieldTitle": "Titolo",
+      "fieldGenre": "Genere",
+      "fieldBpm": "BPM (facoltativo)",
+      "publish": "Pubblica il beat in gara",
+      "save": "Salva le modifiche",
+      "saved": "Beat salvato: è in gara.",
+      "uploading": "Carico il beat",
+      "noUploadUrl": "Il server non ha dato l'indirizzo per il caricamento. Riprova.",
+      "readOnly": "La consegna è chiusa: il beat non si può più modificare.",
+      "closedNoBeat": "La consegna dei beat è chiusa e non hai caricato un beat.",
+      "excludedReason": "Motivo dell'esclusione",
+      "status": {
+        "caricato": "Caricato",
+        "in_gara": "In gara",
+        "top10": "Tra i 10",
+        "escluso": "Escluso"
+      },
+      "rejected": {
+        "format": "«{{name}}» è stato rifiutato: carica un file WAV o MP3.",
+        "size": "«{{name}}» ({{size}}) è stato rifiutato: il file può pesare al massimo {{maxMb}} MB.",
+        "duration": "«{{name}}» ({{duration}}) è stato rifiutato: carica un estratto di {{maxSeconds}} secondi al massimo."
+      }
+    },
+    "tab": {
+      "title": "Chiamarsi Producer",
+      "yourBeat": "Il tuo beat",
+      "open": "La consegna è aperta: puoi caricare, sostituire o eliminare il tuo beat.",
+      "closed": "La consegna è chiusa: qui vedi il tuo beat e il suo stato.",
+      "see": "Vedi il tuo beat",
+      "introProducer": "Carica il tuo beat: uno solo, gratis. Quando si aprono i cuori qui trovi tutti i beat in gara.",
+      "introOthers": "In questa fase i producer consegnano i beat. Quando si aprono i cuori qui trovi tutti i beat in gara."
+    }
+  },
+  "artists": {
+    "badge": "ARTISTI",
+    "pill": "Chiamarsi Artisti · posti per regione",
+    "title": "Un brano in 2 ore, nella tua regione",
+    "introBefore": "Le iscrizioni non sono ancora aperte. Se sei un artista puoi prenotare il tuo slot: nessun pagamento adesso, ti avvisiamo noi.",
+    "introOpen": "Scegli il pacchetto, paga sul sito e ricevi il tuo codice di iscrizione, unico e non indovinabile.",
+    "packages": {
+      "base": {
+        "name": "Base",
+        "price": "99 €",
+        "includes": "2 ore di session in uno studio partner, uno dei 10 beat, pre-mix dello studio, distribuzione del brano da parte di Listen, partecipazione ai cuori della tua regione."
+      },
+      "completo": {
+        "name": "Completo",
+        "price": "150 €",
+        "includes": "Tutto il Base, più mix e master del brano fatti dallo studio."
+      }
+    },
+    "book": "Prenota il tuo slot",
+    "acceptRules": "Ho letto e accetto il regolamento di Chiamarsi",
+    "pay": "Prenota e paga",
+    "payNote": "Il pagamento avviene su listen-marketing.com, nel browser: è una prestazione reale (la session in studio e la distribuzione), non un acquisto in-app. Poi torni qui con il codice già attivo.",
+    "noCheckoutUrl": "Il server non ha dato la pagina di pagamento. Riprova.",
+    "fullTitle": "{{region}}: regione piena",
+    "fullFallback": "In questa regione i posti sono finiti: se continui entri in lista d'attesa.",
+    "fullContinue": "Continua",
+    "alreadyPaid": "Hai già pagato?",
+    "alreadyPaidText": "Dal sito: il codice è nell'email dell'ordine. Dall'app: è già attivo.",
+    "enterCode": "Inserisci il codice",
+    "onlyArtists": "A Chiamarsi Artisti si iscrivono gli account con ruolo artista.",
+    "seats": "I posti per regione",
+    "seatsTotal": "{{enrolled}} iscritti su {{capacity}}",
+    "free_one": "{{count}} posto libero",
+    "free_other": "{{count}} posti liberi",
+    "waitlist": "lista d'attesa",
+    "finalLink": "L'evento finale e il premio"
+  },
+  "slot": {
+    "eyebrow": "Chiamarsi Artisti · prima dell'apertura",
+    "title": "Prenota il tuo slot",
+    "intro": "Dicci che vuoi partecipare nella tua regione: nessun pagamento adesso. Ti avvisiamo noi quando aprono le iscrizioni, con i posti e le date.",
+    "email": "Email (quella del tuo account Listen)",
+    "want": "Voglio partecipare a Chiamarsi Artisti nella mia regione",
+    "updates": "Tienimi aggiornato: newsletter ed email, sito e notifiche dell'app",
+    "note": "La prenotazione non costa niente e non è ancora l'iscrizione: serve a contare chi vuole esserci, regione per regione.",
+    "submit": "Prenota il mio slot",
+    "update": "Salva le modifiche",
+    "doneText": "Puoi tornare qui quando vuoi per modificare i dati.",
+    "cannot": "Adesso la prenotazione dello slot non è disponibile."
+  },
+  "paid": {
+    "checking": "Controllo il tuo ordine…",
+    "checkingText": "Se hai pagato, il codice di iscrizione arriva tra qualche secondo.",
+    "notYet": "Non vedo ancora un codice attivo",
+    "notYetText": "Se hai completato il pagamento può volerci qualche minuto: il codice è anche nell'email dell'ordine. Se non hai pagato, non è stato addebitato niente."
+  },
+  "code": {
+    "title": "Il tuo codice e i tuoi dati",
+    "label": "Codice di iscrizione",
+    "hint": "È nell'email dell'ordine. 18 caratteri: i trattini li mette l'app.",
+    "prefilled": "Hai pagato con questo account: il codice è già qui.",
+    "blocked": "Inserimento bloccato · riprova tra {{time}}",
+    "since": "Fai l'artista dal (anno)",
+    "studioTitle": "Lo studio che preferisci nella tua regione",
+    "partner": "Studio partner Listen",
+    "noPartners": "In questa regione non ci sono ancora studi partner: indica uno studio che conosci.",
+    "chooseRegionFirst": "Scegli prima la regione per vedere gli studi partner.",
+    "external": "Uno studio che conosco",
+    "externalSub": "Non è partner: lo contattiamo noi per la convenzione",
+    "ext": {
+      "name": "Nome dello studio",
+      "address": "Indirizzo",
+      "phone": "Telefono dello studio · obbligatorio",
+      "email": "Email dello studio (facoltativa)"
+    },
+    "contactNote": "Ti contattiamo entro 48 ore per prenotare la session: 2 ore per chiudere il brano.",
+    "submit": "Conferma e entra in gara"
+  },
+  "entry": {
+    "title": "La mia pagina",
+    "missing": "Non trovo la tua iscrizione.",
+    "steps": {
+      "code": "Codice",
+      "session": "Session",
+      "delivery": "Consegna",
+      "online": "Online e cuori"
+    },
+    "stepsSpoken": "Passo {{n}} di {{total}}: {{step}}",
+    "status": {
+      "iscritto": "Iscritto",
+      "lista_attesa": "In lista d'attesa",
+      "da_contattare": "Ti contattiamo per la session",
+      "session_prenotata": "Session prenotata",
+      "session_fatta": "Session fatta",
+      "consegna_studio": "Lo studio ha consegnato",
+      "brano_caricato": "Brano caricato · in controllo",
+      "controllato": "Brano controllato",
+      "online": "Brano online",
+      "in_gara": "In gara",
+      "passato": "Passato",
+      "wildcard": "Wild card",
+      "escluso": "Escluso",
+      "annullato": "Iscrizione annullata"
+    },
+    "session": "La session",
+    "studioPending": "Lo studio non è ancora stato assegnato.",
+    "sessionPending": "Data della session da fissare: ti contattiamo noi.",
+    "callStudio": "Chiama lo studio",
+    "beat": "Il beat",
+    "noBeat": "Non hai ancora scelto il beat.",
+    "chooseBeat": "Scegli il beat",
+    "changeBeat": "Cambia beat",
+    "chooseBeatText": "Uno dei 10 beat di Chiamarsi Producer: lo usi in studio. Puoi cambiarlo fino alla session.",
+    "chooseThis": "Scegli «{{title}}»",
+    "beatChosen": "Beat scelto",
+    "package": "Il pacchetto",
+    "dueBy": "Consegna entro: {{date}}",
+    "studioDelivered": "Lo studio ha consegnato il {{date}}",
+    "uploadTrack": "Carica il WAV e i dati per la distribuzione"
+  },
+  "track": {
+    "eyebrow": "Chiamarsi Artisti · consegna",
+    "title": "Carica il brano",
+    "cannot": "Adesso non puoi consegnare il brano: puoi comunque preparare la bozza.",
+    "wavTitle": "Il file WAV del brano",
+    "wavText": "Il file che ti ha consegnato lo studio.",
+    "pickWav": "Scegli il WAV",
+    "replaceWav": "Sostituisci il WAV",
+    "why": "Questi dati servono a Listen per distribuire il brano sulle piattaforme: sono gli stessi che chiede il distributore.",
+    "fields": {
+      "title": "Titolo del brano",
+      "artist": "Nome artista",
+      "spotify": "Link del tuo profilo Spotify (vuoto se è il primo brano)",
+      "language": "Lingua",
+      "explicit": "Esplicito",
+      "author": "Autore del testo (nome e cognome)",
+      "producer": "Producer del beat",
+      "lyrics": "Testo del brano"
+    },
+    "coverTitle": "Copertina {{side}}×{{side}}",
+    "coverText": "JPG o PNG, esattamente 3000×3000. Senza copertina usiamo la grafica del contest.",
+    "pickCover": "Scegli dalla galleria",
+    "replaceCover": "Sostituisci la copertina",
+    "errors": {
+      "wav_format": "Il file deve essere un WAV.",
+      "cover_format": "La copertina deve essere un JPG o un PNG.",
+      "cover_size": "La copertina è {{width}}×{{height}}: deve essere esattamente {{side}}×{{side}}."
+    },
+    "decl": {
+      "mine": "Il brano è mio",
+      "notOffensive": "Il testo non offende nessuno",
+      "distribution": "Autorizzo Listen Marketing a distribuirlo per l'edizione"
+    },
+    "uploadingWav": "Carico il WAV",
+    "uploadingCover": "Carico la copertina",
+    "draftNote": "La bozza resta salvata su questo telefono finché non consegni.",
+    "send": "Consegna il brano",
+    "sentTitle": "Brano consegnato",
+    "sentText": "Listen controlla il file, distribuisce il brano e ti avvisa quando è online.",
+    "status": {
+      "brano_caricato": "Brano caricato · in controllo",
+      "controllato": "Brano controllato",
+      "online": "Brano online"
+    }
+  },
+  "vote": {
+    "pill": "Chiamarsi Artisti · sfida di regione",
+    "title": "I brani della regione",
+    "intro": "I brani della regione, da ascoltare in anteprima. Dai i tuoi cuori ai preferiti.",
+    "changeRegion": "Cambia regione",
+    "search": "Cerca un brano o un artista",
+    "onBeat": "su «{{beat}}»",
+    "empty": "Nessun brano trovato."
+  },
+  "ranking": {
+    "pill": "Risultati",
+    "title": "I risultati della regione",
+    "notYet": "I risultati non sono ancora stati pubblicati.",
+    "passed": "Passano",
+    "wildcards": "Wild card",
+    "finalLink": "L'evento finale e il premio"
+  },
+  "finale": {
+    "pill": "Chiamarsi Artisti · dal vivo",
+    "title": "L'evento finale",
+    "pending": "I dettagli dell'evento finale arrivano qui appena Listen li pubblica.",
+    "prize": "Premio finale",
+    "rankingLink": "I risultati di ogni regione"
+  },
+  "marketing": {
+    "title": "Fai la tua prossima campagna con noi",
+    "intro": "Il marketing si fa sul sito, non qui: l'app Listen è per Chiamarsi. Entri su listen-marketing.com con lo stesso account e trovi tutto.",
+    "cardEyebrow": "Marketing · sul sito",
+    "cardText": "Pagine, TikTok, Talent House: su listen-marketing.com con lo stesso account.",
+    "onSite": "Sul sito ↗",
+    "open": "Apri listen-marketing.com",
+    "publicNote": "Sei pubblico? Il sito è per artisti, producer e studi: se lo sei, scrivi a Listen per cambiare ruolo.",
+    "cards": {
+      "instagram": {
+        "title": "Pagine Instagram",
+        "text": "Post e reel sulle pagine partner, in Italia e all'estero."
+      },
+      "tiktok": {
+        "title": "TikTok e creator",
+        "text": "Il tuo brano nei video dei creator e sulle pagine TikTok partner."
+      },
+      "talent": {
+        "title": "Talent House",
+        "text": "La tua pagina artista su Listen, con i brani e le campagne fatte."
+      },
+      "partners": {
+        "title": "Studi e agenzie partner",
+        "text": "Il calendario delle uscite dei vostri artisti e il credito partner."
+      }
+    }
+  },
+  "me": {
+    "legal": "Regole e privacy",
+    "terms": "Leggi i termini",
+    "noTracking": "L'app non contiene tracciamento né pubblicità di terzi.",
+    "signOut": "Esci",
+    "delete": {
+      "button": "Elimina il mio account",
+      "title": "Eliminare il tuo account?",
+      "text": "Il profilo e i cuori vengono resi anonimi e non potrai più entrare, né nell'app né sul sito. Restano solo gli ordini, che Listen deve conservare per gli obblighi contabili.",
+      "continue": "Continua",
+      "confirmTitle": "Sei sicuro?",
+      "confirmText": "L'eliminazione è immediata e non si può annullare.",
+      "confirm": "Elimina per sempre"
+    }
+  }
+}

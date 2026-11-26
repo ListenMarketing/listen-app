@@ -1,0 +1,50 @@
+{
+  "cli": {
+    "version": ">= 16.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "base": {
+      "node": "22.12.0"
+    },
+    "development": {
+      "extends": "base",
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "development",
+        "EXPO_PUBLIC_SITE_URL": "https://DA_INSERIRE-anteprima.vercel.app",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://DA_INSERIRE.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "DA_INSERIRE_CHIAVE_ANON"
+      }
+    },
+    "preview": {
+      "extends": "base",
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "preview",
+        "EXPO_PUBLIC_SITE_URL": "https://DA_INSERIRE-anteprima.vercel.app",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://DA_INSERIRE.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "DA_INSERIRE_CHIAVE_ANON"
+      }
+    },
+    "production": {
+      "extends": "base",
+      "autoIncrement": true,
+      "env": {
+        "APP_ENV": "production",
+        "EXPO_PUBLIC_SITE_URL": "https://www.listen-marketing.com",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://DA_INSERIRE.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "DA_INSERIRE_CHIAVE_ANON"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {},
+      "android": {
+        "track": "internal"
+      }
+    }
+  }
+}
